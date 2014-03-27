@@ -6,8 +6,4 @@ exports.userSchema = mongoose.Schema({
   password: String
 });
 
-
-
 exports.db = mongoose.connection;
-
-
